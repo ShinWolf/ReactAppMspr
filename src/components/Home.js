@@ -50,7 +50,7 @@ const Home = () => {
         <div className="container">
             {posts.length > 0 ? (
                 <div>
-                    {posts.map((post) => (
+                    {posts.sort((a, b) => new Date(b.date) - new Date(a.date)).map((post) => (
                         <div className="card" key={post.id}>
                             <img src={imag} alt="Post" />
                             <p>Date: {new Date(post.date).toLocaleDateString()}</p>

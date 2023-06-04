@@ -1,0 +1,49 @@
+.profil-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profil-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profil-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.profil-header p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.post-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.post-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.post-card h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.post-card p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}

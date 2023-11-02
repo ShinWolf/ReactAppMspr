@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Link, Route, Routes, Outlet } from 'react-router-dom';
 
 import Home from './Home';
-import { FormLogin } from './Form';
+import { FormLogin, InscriptionForm } from './Form';
 import Profil from "./Profil";
 import PosterForm from './PosterForm'
 import '../css/navBar.css';
@@ -38,6 +38,7 @@ const Navbar = () => {
           <Route path="/" element={<Home />} />
           <Route path="/addPost" element={<PosterForm />} />
           <Route path="/signIn" element={<FormLogin />} />
+          <Route path="/signUp" element={<InscriptionForm />} />
           <Route path="/profil" element={<Profil />} />
         </Route>
       </Routes>
